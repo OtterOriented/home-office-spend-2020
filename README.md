@@ -10,8 +10,7 @@ There was a [tweet on 26th March 2020](https://twitter.com/lloydhardy/status/137
 
 ## Files in Repository
 
-* [Jupyter Notebook](HomeOffice.ipynb)
-* [Jupyter Notebook as HTML](HomeOffice.html)
+* [Jupyter Notebook](HomeOffice.ipynb) - view the data report
 * [Cleaned merged data](cleaned_spend.csv) - CSV of merged data
 * [Cleaned aggregate data](cleaned_agg_spend.csv) - CSV of data aggregated by supplier. Columns:
   * Supplier
