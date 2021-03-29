@@ -22,7 +22,7 @@ Spending 2020 at the end of the Jupyter notebook contains:
 
 ## Cleaned Data Files
 
-The `Supplier` column had to be processed so that the data could be aggregated as supplier names aren't always consistent. The [Clean](#Clean) section contains more information and the steps involved.
+The `Supplier` column had to be processed so that the data could be aggregated as supplier names aren't always consistent. The Clean section in the notebook contains more information and the steps involved.
 
 [cleaned_agg_spend.csv](cleaned_agg_spend.csv) contains data aggregated by supplier for 2020. Columns:
 
