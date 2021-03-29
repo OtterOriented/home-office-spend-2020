@@ -14,7 +14,7 @@ The article originally appeared in Byline Times as '[Home Office Fails to Explai
 
 ## Report
 
-Spending 2020 at the end of the Jupyter notebook contains:
+Spending 2020 at the end of the [Jupyter notebook](HomeOffice.ipynb) contains:
 * Total spend for year: £2,097,376.09
 * Chart and table of spending per month: March and April 2020 at the first lockdown have spike increase in spending and account for 58% of the 2020 spend.
 * Table of top 20 supplier spend for 2020
