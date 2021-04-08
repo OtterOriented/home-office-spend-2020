@@ -1,6 +1,18 @@
-# Home Office procurement card spend over £500: 2020
+# Using Levenshtein Distance for Fuzzy String Matching
 
-There was a [tweet on 26th March 2020](https://twitter.com/lloydhardy/status/1375363511962980352?s=20) with a screenshot of some Home Office spending. I was curious about how easy it is to harvest, clean and summarise the spending data. I also wanted to check the reported information was correct.
+There was a [tweet on 26th March 2020](https://twitter.com/lloydhardy/status/1375363511962980352?s=20) with a screenshot of some Home Office spending. I was curious about how easy it is to harvest, clean and summarise the spending data. The data were split across twelve CSV files, one for each month. [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) was used to combine the files by fuzzy matching supplier names as inconsistent values were used. I've previously used other methods such as [soundex](https://en.wikipedia.org/wiki/Soundex) and [metaphone](https://en.wikipedia.org/wiki/Metaphone), but these data presented more of a challenge.
+
+**Examples of fuzzy supplier names used for matching:**
+
+| Original | Fuzzy value |
+| :--- | :--- |
+| A1 ENVIRO SCIENCE | a1 enviro sciences |
+| A1-ENVIRO SCIENCES. | a1 enviro sciences |
+| --- | --- |
+| W<span>WW.EQUIP4WORK</span>.CO.UK | equip4work |
+| EQUIP4WORK | equip4work |
+
+<br />
 
 The article originally appeared in Byline Times as '[Home Office Fails to Explain Strange Expenses](https://bylinetimes.com/2021/03/24/home-office-fails-to-explain-strange-expenses/)'. The Home Office did respond 26-Mar-2021 to say that purchases were made for PPE and clothing for asylum seekers.
 
